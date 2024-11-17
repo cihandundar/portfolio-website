@@ -34,4 +34,9 @@ export const skills = [
     image: "/vue.png",
     name: "Vue",
   },
+  {
+    id: 7,
+    image: "/tailwind.png",
+    name: "Tailwind",
+  },
 ];

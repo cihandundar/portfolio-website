@@ -25,7 +25,7 @@ const Navbar = () => {
                 <a
                   href={item.path}
                   className={`${
-                    activePath === item.path ? "text-blue-600" : "text-white"
+                    activePath === item.path ? "text-red-600" : "text-white"
                   }`}
                 >
                   {item.name}

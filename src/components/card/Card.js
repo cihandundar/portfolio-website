@@ -4,7 +4,7 @@ const Card = ({ project, tecnologies }) => {
     <a
       href={project.url}
       target="_blank"
-      className="border border-white p-5 flex flex-col items-center gap-5"
+      className="border border-white p-5 flex flex-col items-center gap-5 "
     >
       <img src={project.image} alt="" />
       <div className="text-xl font-bold">{project.title}</div>

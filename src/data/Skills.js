@@ -25,7 +25,7 @@ export const skills = [
     name: "React",
   },
   {
-    id: 5,
+    id: 6,
     image: "/next.png",
     name: "Next.js",
   },

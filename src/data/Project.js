@@ -96,7 +96,7 @@ export const projects = [
     url: "https://github.com/cihandundar/League-of-Legends",
   },
   {
-    id: 5,
+    id: 6,
     title: "CRUD Operations",
     image: "/blog.jpg",
     technologies: [

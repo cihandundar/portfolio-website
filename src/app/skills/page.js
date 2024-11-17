@@ -3,6 +3,9 @@ import { skills } from "@/data/Skills";
 const Skills = () => {
   return (
     <div className="container mx-auto">
+      <div className="text-center text-4xl font-bold py-5 uppercase">
+        Skills
+      </div>
       <div className="grid xl:grid-cols-5 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 md:p-0 p-3 ">
         {skills.map((skill, index) => (
           <div

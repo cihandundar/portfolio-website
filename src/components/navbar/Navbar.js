@@ -10,7 +10,6 @@ const Navbar = () => {
     { name: "Skills", path: "/skills" },
   ];
 
-  // Aktif yolu güncellemek için useEffect kullanıyoruz
   useEffect(() => {
     setActivePath(window.location.pathname);
   }, []);

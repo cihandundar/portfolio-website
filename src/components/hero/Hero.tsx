@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div className="text-center flex flex-col items-center">
       <img

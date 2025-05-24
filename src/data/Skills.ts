@@ -1,4 +1,10 @@
-export const skills = [
+export interface Skill {
+  id: number;
+  image: string;
+  name: string;
+}
+
+export const skills: Skill[] = [
   {
     id: 1,
     image: "/html.png",
@@ -35,7 +41,7 @@ export const skills = [
     name: "Vue",
   },
   {
-    id: 7,
+    id: 8,  // id tekrarından dolayı bunu 8 yaptım
     image: "/tailwind.png",
     name: "Tailwind",
   },

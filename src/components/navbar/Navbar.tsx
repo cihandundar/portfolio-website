@@ -1,10 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
-const Navbar = () => {
-  const [activePath, setActivePath] = useState("");
+type MenuItem = {
+  name: string;
+  path: string;
+};
 
-  const menuItems = [
+const Navbar = () => {
+  const [activePath, setActivePath] = useState<string>("");
+
+  const menuItems: MenuItem[] = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
     { name: "Skills", path: "/skills" },

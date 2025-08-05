@@ -22,27 +22,42 @@ export const skills: Skill[] = [
   },
   {
     id: 4,
+    image: "/typescript.png",
+    name: "TypeScript",
+  },
+  {
+    id: 5,
     image: "/scss.png",
     name: "SCSS",
   },
   {
-    id: 5,
+    id: 6,
     image: "/react.png",
     name: "React",
   },
   {
-    id: 6,
+    id: 7,
     image: "/next.png",
     name: "Next.js",
   },
   {
-    id: 7,
+    id: 8,
     image: "/vue.png",
     name: "Vue",
   },
   {
-    id: 8,  // id tekrarından dolayı bunu 8 yaptım
+    id: 9,
     image: "/tailwind.png",
     name: "Tailwind",
+  },
+  {
+    id: 10,
+    image: "/boostrap.png",
+    name: "Bootstrap",
+  },
+  {
+    id: 11,
+    image: "/redux.png",
+    name: "Redux Toolkit",
   },
 ];

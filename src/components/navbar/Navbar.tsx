@@ -28,9 +28,8 @@ const Navbar = () => {
               <li key={index}>
                 <a
                   href={item.path}
-                  className={`${
-                    activePath === item.path ? "text-red-600" : "text-white"
-                  }`}
+                  className={`${activePath === item.path ? "text-white" : "text-gray-300"
+                    }`}
                 >
                   {item.name}
                 </a>

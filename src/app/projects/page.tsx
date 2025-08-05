@@ -1,7 +1,7 @@
-"use client"
+"use client";
+
 import type { NextPage } from "next";
-import { projects, ProjectType } from "../../data/Project";
-import Card from "../../components/card/Card";
+import Project from "../../components/project/Project";
 
 
 const Projects: NextPage = () => {
@@ -11,13 +11,7 @@ const Projects: NextPage = () => {
         Projects
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-5 py-5 md:px-0 px-3">
-        {projects.map((project: ProjectType) => (
-          <Card
-            key={project.id}
-            project={project}
-            tecnologies={project.technologies}
-          />
-        ))}
+        <Project />
       </div>
     </div>
   );
